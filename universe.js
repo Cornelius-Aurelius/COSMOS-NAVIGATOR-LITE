@@ -25,7 +25,7 @@ Rules:
       method: "POST",
       headers: {
         "Content-Type":"application/json",
-        "Authorization":"Bearer " + (window.OPENAI_KEY || "ADD_KEY_HERE")
+        "Authorization":"Bearer " + (window.OPENAI_KEY || "AIzaSyDKr3It-6N2bgQiEwkQkuZ3oA7FB1q-0Mw")
       },
       body: JSON.stringify({
         model: "gpt-4.1-mini",
